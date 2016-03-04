@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Dongxi729/NA.git", :tag => "0.1.3" }
 
-  s.source_files  = 'NA/**/*.{h,m}'
+    s.source_files  = "NA/**/*.{h,m}"
 
 
    s.frameworks = "UIKit"
